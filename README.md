@@ -285,7 +285,7 @@ I'm seeking **Data Analyst, Business Analyst, or BI Analyst** roles where I can:
 
 **I'm actively seeking Data Analyst opportunities in Dublin or remote within the EU.**
 
-[📧 Email Me](mailto:marcelo.dafonsecaoliveira@gmail.com) | [💼 LinkedIn](https://www.linkedin.com/in/ofonsecamarcelo) | [📂 View Projects](https://github.com/marcelodafonsecaoliveira-coder?tab=repositories)
+[📧 Email Me](mailto:marcelo.dafonsecaoliveira@gmail.com) | [💼 LinkedIn](https://www.linkedin.com/in/ofonsecamarcelo) | [📂 View Projects](https://github.com/mfonsecaoliveira?tab=repositories)
 
 ---
 
