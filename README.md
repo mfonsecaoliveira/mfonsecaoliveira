@@ -187,9 +187,9 @@ Designed a multi-zone data platform for a fictional Ireland-Brazil fintech proce
 
 <div align="center">
 
-![Marcelo's GitHub stats](https://github-readme-stats.vercel.app/api?username=marcelodafonsecaoliveira-coder&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&custom_title=GitHub%20Contributions)
+![Marcelo's GitHub stats](https://github-readme-stats.vercel.app/api?username=mfonsecaoliveira&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&custom_title=GitHub%20Contributions)
 
-![Profile Views](https://komarev.com/ghpvc/?username=marcelodafonsecaoliveira-coder&color=blue&style=flat-square)
+![Profile Views](https://komarev.com/ghpvc/?username=mfonsecaoliveira&color=blue&style=flat-square)
 
 </div>
 
