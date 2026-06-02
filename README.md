@@ -47,6 +47,7 @@ Now I'm **formalizing what I've always done intuitively** — turning messy oper
 
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Apache Beam](https://img.shields.io/badge/Apache%20Beam-FF6600?style=for-the-badge&logo=apache&logoColor=white)
 ![dbt](https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white)
 
@@ -157,7 +158,7 @@ My professional experience extends far beyond public repositories:
 
 ## 🚀 Featured Projects
 
-### 🏦 [Brarish Data Architecture](https://github.com/marcelodafonsecaoliveira-coder/Brarish-Data-Architecture)
+### 🏦 [Brarish Data Architecture](https://github.com/mfonsecaoliveira/Brarish-Data-Architecture)
 **Production-Grade Medallion Lakehouse for Cross-Border Fintech**
 
 Designed a multi-zone data platform for a fictional Ireland-Brazil fintech processing 55,000+ transactions/month:
@@ -179,7 +180,73 @@ Designed a multi-zone data platform for a fictional Ireland-Brazil fintech proce
 - 🐍 **400+ lines Python**: ETL pipelines, data validation, PII tokenization
 - 📊 **Complete documentation**: Technical specs, architecture diagrams
 
-[📄 Read Full Technical Documentation](https://github.com/marcelodafonsecaoliveira-coder/Brarish-Data-Architecture)
+[📄 Read Full Technical Documentation](https://github.com/mfonsecaoliveira/Brarish-Data-Architecture)
+
+---
+
+### 📞 [Customer Experience Diagnosis — Call Center 2020](https://github.com/mfonsecaoliveira/Call-Center-Customer-Experience)
+**An End-to-End Power BI Investigation That Builds an Argument, Not Just Charts**
+
+A narrative-driven diagnosis of why a call center closed 2020 with customers in distress — analyzing **13,055 interactions** across 4 channels, 6 contact reasons, and the full United States:
+- 🚨 **NPS −69 with 51% negative sentiment** surfaced as a *systemic*, not local, problem
+- 🔍 **Five-hypothesis investigation** (channel, reason, geography, seasonality) — each ruled out with evidence
+- 🧮 **Null-safe DAX NPS measure** — corrected a −78 → −69 distortion caused by blank surveys counted as detractors
+- 🎯 **Prioritized recommendations**: fix efficiency (61% of calls >20 min) + deflect 77% money-related demand
+
+**Tech Stack**: Power BI, DAX, Power Query, dimensional (star schema) modeling
+
+**Key Highlights**:
+- Drill-through detail pages by U.S. state and custom sidebar navigation
+- Honest visualization: zero-anchored axes and CSAT shown on its true 0–7 scale
+- Data storytelling structured as problem → eliminated suspects → root cause → action
+
+| Cover | Overview ("The Alarm") |
+|---|---|
+|<img width="967" height="547" alt="Cover" src="https://github.com/user-attachments/assets/a5e883ad-04b7-4a8d-842d-d8411bd2339f" /> |<img width="972" height="552" alt="Overview" src="https://github.com/user-attachments/assets/2ef2af5e-b111-41b6-b350-bd81d1fa0f31" />|
+| **Root Cause** | **Recommendations** |
+|<img width="962" height="547" alt="Root Cause" src="https://github.com/user-attachments/assets/82717342-d9ef-485c-afce-fd056ef725b7" /> |<img width="967" height="547" alt="Action" src="https://github.com/user-attachments/assets/42137563-6916-47fc-af0c-9da7c24a6b40" />|
+
+[📄 Explore the Full Report](https://github.com/mfonsecaoliveira/Call-Center-Customer-Experience)
+
+---
+
+### 💉 [Flu Shot Learning — Predicting H1N1 & Seasonal Flu Vaccines](https://github.com/mfonsecaoliveira/-Flu-Shot-Learning-Predicting-H1N1-and-Seasonal-Flu-Vaccines)
+**Applied Machine Learning — Graded 78/100**
+
+A dual binary classification project predicting vaccine uptake from the 2009 U.S. National H1N1 Flu Survey (**26,707 respondents, 35 features**) to help public health teams target outreach:
+- 🎯 **ROC-AUC up to 0.86** (Random Forest, H1N1) following a full CRISP-DM pipeline
+- ⚙️ **GridSearchCV tuning** across `C`, `penalty`, and `solver` with 5-fold stratified cross-validation
+- 💶 **Business-impact framing**: false positive < €10 vs false negative > €1,000 → recommends lowering the threshold to 0.3–0.4 to maximize recall
+- 📊 **10 EDA visualizations**; doctor recommendation identified as a top predictor for both targets
+
+**Tech Stack**: Python, scikit-learn, pandas, NumPy, matplotlib, seaborn, missingno
+
+**Key Highlights**:
+- Median/mode imputation, one-hot encoding, StandardScaler, stratified 60/20/20 split
+- Logistic Regression vs Random Forest comparison across both targets
+- Conceptual deployment design: REST API + EHR integration with weekly retraining for concept drift
+
+[📄 Read the Full Analysis](https://github.com/mfonsecaoliveira/-Flu-Shot-Learning-Predicting-H1N1-and-Seasonal-Flu-Vaccines)
+
+---
+
+### 🏗️ [Designing & Evaluating a Modern Data Pipeline for BI](https://github.com/mfonsecaoliveira/Modern-Data-Pipeline-BI)
+**Business Intelligence & Data Warehousing — Graded 85/100**
+
+Design and critical evaluation of an end-to-end pipeline that moves a medium-sized retail organization from a strained transactional MySQL system toward a governed analytical ecosystem:
+- 🏛️ **Six-layer architecture** mapped onto the Medallion pattern (Bronze → Silver → Gold)
+- ⭐ **Kimball star schema** with Type 2 Slowly Changing Dimensions for historical tracking
+- 🛡️ **Layered data quality framework**: duplicate detection, null validation, referential integrity, domain checks
+- ⚖️ **Critical evaluation** of real trade-offs: batch vs streaming, query performance vs schema flexibility, cost vs performance
+
+**Tech Stack / Concepts**: Data Warehousing (Kimball & Inmon), Medallion Architecture, Star Schema, OLTP vs OLAP, SQL, MySQL
+
+**Key Highlights**:
+- Raw vs clean staging layers enabling validation checkpoints and pipeline restart
+- Metadata and data lineage treated as first-class governance concerns
+- *"Near benchmark quality"* — one of the strongest submissions per lecturer feedback
+
+[📄 Read the Full Report](https://github.com/mfonsecaoliveira/Modern-Data-Pipeline-BI)
 
 ---
 
@@ -248,11 +315,11 @@ I'm seeking **Data Analyst, Business Analyst, or BI Analyst** roles where I can:
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ofonsecamarcelo)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:marcelo.dafonsecaoliveira@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/marcelodafonsecaoliveira-coder)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mfonsecaoliveira)
 
 **📧 Email**: marcelo.dafonsecaoliveira@gmail.com  
 **📱 Phone**: +353 83 834 2102  
-**🔗 Portfolio**: [github.com/marcelodafonsecaoliveira-coder](https://github.com/marcelodafonsecaoliveira-coder)
+**🔗 Portfolio**: [github.com/mfonsecaoliveira](https://github.com/mfonsecaoliveira)
 
 ---
 
@@ -289,6 +356,6 @@ I'm seeking **Data Analyst, Business Analyst, or BI Analyst** roles where I can:
 
 ---
 
-**Last Updated**: March 2026
+**Last Updated**: June 2026
 
 </div>
