@@ -206,7 +206,7 @@ A narrative-driven diagnosis of why a call center closed 2020 with customers in 
 | **Root Cause** | **Recommendations** |
 |<img width="962" height="547" alt="Root Cause" src="https://github.com/user-attachments/assets/82717342-d9ef-485c-afce-fd056ef725b7" /> |<img width="967" height="547" alt="Action" src="https://github.com/user-attachments/assets/42137563-6916-47fc-af0c-9da7c24a6b40" />|
 
-[📄 Explore the Full Report](https://github.com/mfonsecaoliveira/Call-Center-Customer-Experience)
+[📄 Explore the Full Report](https://github.com/mfonsecaoliveira/Customer-Experience-Diagnosis-CallCenter)
 
 ---
 
@@ -246,7 +246,7 @@ Design and critical evaluation of an end-to-end pipeline that moves a medium-siz
 - Metadata and data lineage treated as first-class governance concerns
 - *"Near benchmark quality"* — one of the strongest submissions per lecturer feedback
 
-[📄 Read the Full Report](https://github.com/mfonsecaoliveira/Modern-Data-Pipeline-BI)
+[📄 Read the Full Report](https://github.com/mfonsecaoliveira/-Designing-and-Evaluating-a-Modern-Data-Pipeline-for-Business-Intelligence)
 
 ---
 
