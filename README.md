@@ -210,6 +210,32 @@ A narrative-driven diagnosis of why a call center closed 2020 with customers in 
 
 ---
 
+### 💄 [Sephora Beauty Products — Data Visualization in Excel](https://github.com/mfonsecaoliveira/Sephora-Beauty-Products-Data-Visualization-in-Excel)
+**Evidence-Based Visual Analytics on 8,494 Retail Products — Graded 88/100**
+
+A visual analytics study testing whether the beauty industry's price-equals-quality promise holds up, across a real Sephora catalogue of **8,494 products from 304 brands**:
+- 🎯 **No price–quality link**: a $15 moisturiser can out-rate a $200 cream — value beats cost
+- 🧮 **Custom metrics built from scratch**: Value Score (rating per dollar) and Review Density (reviews per love)
+- 📊 **10 business questions → 10 purpose-built charts**, each chart type matched to the data
+- 🎨 **Grounded in visualization theory**: Cleveland & McGill (length over angle), Tufte (data-ink ratio), colourblind-safe palette
+
+**Tech Stack**: Microsoft Excel, VLOOKUP, IF logic, PivotTables, star-schema modeling, Kaggle dataset
+
+**Key Highlights**:
+- Star-schema workbook — fact table plus a price-range dimension over 8,494 products with 8 calculated fields
+- Budget products dominate rating-per-dollar; limited editions win loves but not ratings
+- Viral products show broad but shallow engagement — many loves, few written reviews
+
+| Top Brands by Loves | Average Rating by Price Bucket |
+|---|---|
+|<img alt="Top Brands by Loves" src="https://github.com/mfonsecaoliveira/Sephora-Beauty-Products-Data-Visualization-in-Excel/raw/main/images/01-top-brands-loves.png" /> |<img alt="Price vs Rating" src="https://github.com/mfonsecaoliveira/Sephora-Beauty-Products-Data-Visualization-in-Excel/raw/main/images/03-price-vs-rating.png" />|
+| **Category Distribution** | **Best Value (Rating per Dollar)** |
+|<img alt="Category Distribution" src="https://github.com/mfonsecaoliveira/Sephora-Beauty-Products-Data-Visualization-in-Excel/raw/main/images/07-category-distribution.png" /> |<img alt="Best Value" src="https://github.com/mfonsecaoliveira/Sephora-Beauty-Products-Data-Visualization-in-Excel/raw/main/images/08-best-value.png" />|
+
+[📄 Explore the Full Project](https://github.com/mfonsecaoliveira/Sephora-Beauty-Products-Data-Visualization-in-Excel)
+
+---
+
 ### 💉 [Flu Shot Learning — Predicting H1N1 & Seasonal Flu Vaccines](https://github.com/mfonsecaoliveira/-Flu-Shot-Learning-Predicting-H1N1-and-Seasonal-Flu-Vaccines)
 **Applied Machine Learning — Graded 78/100**
 
