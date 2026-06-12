@@ -236,6 +236,32 @@ A visual analytics study testing whether the beauty industry's price-equals-qual
 
 ---
 
+### 📊 [Driving Revenue Growth Using a Data Warehouse](https://github.com/mfonsecaoliveira/Driving-Revenue-Growth-Using-a-Data-Warehouse)
+**A BigQuery Analytics Consulting Study, From Star Schema to Revenue Strategy — Graded 88/100**
+
+Acting as a Senior Data Consultant on a retail client's BigQuery warehouse, turning six SQL-driven insights into five costed revenue strategies:
+- 🏛️ **Four-layer medallion architecture** (raw → clean → warehouse → data mart) feeding a governed `vw_sales_summary` single source of truth
+- ⭐ **Retail star schema**: `fact_sales` with seven dimensions, built for OLAP aggregation
+- 🧮 **RFM segmentation in BigQuery SQL** using `NTILE(5)` scoring and `CASE` logic to split customers into Champions, At Risk and Lost
+- 💶 **Insight-to-revenue roadmap**: five strategies with projected uplift (5–20%) and effort ratings
+
+**Tech Stack**: Google BigQuery, SQL (window functions, CTEs, NTILE), Star Schema, Medallion Architecture, Looker Studio
+
+**Key Highlights**:
+- Six analytical insights powered by `RANK()`, `NTILE(5)`, `DATE_DIFF` and CTE-based queries
+- Revenue-concentration analysis (top 1% of customers ≈ 28% of revenue) framed as a retention opportunity
+- Future-state design: BigQuery ML (churn, ARIMA_PLUS forecasting), streaming and a semantic layer
+
+| Warehouse Architecture | Retail Star Schema |
+|---|---|
+|<img alt="Architecture" src="https://github.com/mfonsecaoliveira/Driving-Revenue-Growth-Using-a-Data-Warehouse/raw/main/images/01-architecture-overview.png" /> |<img alt="Star Schema" src="https://github.com/mfonsecaoliveira/Driving-Revenue-Growth-Using-a-Data-Warehouse/raw/main/images/02-star-schema.png" />|
+| **Revenue Growth Strategy Map** | **Executive Dashboard Mockup** |
+|<img alt="Strategy Map" src="https://github.com/mfonsecaoliveira/Driving-Revenue-Growth-Using-a-Data-Warehouse/raw/main/images/07-strategy-map.png" /> |<img alt="Dashboard Mockup" src="https://github.com/mfonsecaoliveira/Driving-Revenue-Growth-Using-a-Data-Warehouse/raw/main/images/05-dashboard-mockup.png" />|
+
+[📄 Explore the Full Project](https://github.com/mfonsecaoliveira/Driving-Revenue-Growth-Using-a-Data-Warehouse)
+
+---
+
 ### 💉 [Flu Shot Learning — Predicting H1N1 & Seasonal Flu Vaccines](https://github.com/mfonsecaoliveira/-Flu-Shot-Learning-Predicting-H1N1-and-Seasonal-Flu-Vaccines)
 **Applied Machine Learning — Graded 78/100**
 
