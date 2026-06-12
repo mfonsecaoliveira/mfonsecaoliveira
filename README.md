@@ -254,9 +254,9 @@ Acting as a Senior Data Consultant on a retail client's BigQuery warehouse, turn
 
 | Warehouse Architecture | Retail Star Schema |
 |---|---|
-|<img alt="Architecture" src="https://github.com/mfonsecaoliveira/Driving-Revenue-Growth-Using-a-Data-Warehouse./blob/main/images/01-architecture-overview.png" /> |<img alt="Star Schema" src="https://github.com/mfonsecaoliveira/Driving-Revenue-Growth-Using-a-Data-Warehouse/raw/main/images/02-star-schema.png" />|
+|<img alt="Architecture" src="https://github.com/mfonsecaoliveira/Driving-Revenue-Growth-Using-a-Data-Warehouse./blob/main/images/01-architecture-overview.png" /> |<img alt="Star Schema" src="https://github.com/mfonsecaoliveira/Driving-Revenue-Growth-Using-a-Data-Warehouse./blob/main/images/02-star-schema.png" />|
 | **Revenue Growth Strategy Map** | **Executive Dashboard Mockup** |
-|<img alt="Strategy Map" src="https://github.com/mfonsecaoliveira/Driving-Revenue-Growth-Using-a-Data-Warehouse/raw/main/images/07-strategy-map.png" /> |<img alt="Dashboard Mockup" src="https://github.com/mfonsecaoliveira/Driving-Revenue-Growth-Using-a-Data-Warehouse/raw/main/images/05-dashboard-mockup.png" />|
+|<img alt="Strategy Map" src="https://github.com/mfonsecaoliveira/Driving-Revenue-Growth-Using-a-Data-Warehouse./blob/main/images/07-strategy-map.png" /> |<img alt="Dashboard Mockup" src="https://github.com/mfonsecaoliveira/Driving-Revenue-Growth-Using-a-Data-Warehouse./blob/main/images/05-dashboard-mockup.png" />|
 
 [📄 Explore the Full Project](https://github.com/mfonsecaoliveira/Driving-Revenue-Growth-Using-a-Data-Warehouse)
 
